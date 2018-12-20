@@ -1,0 +1,21 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:itlixiaolong/anydoor.git",
+  "author": "itlixiaolong",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0",
+    "pre-commit": "^1.2.2"
+  },
+  "scripts": {
+     "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ]
+}

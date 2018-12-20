@@ -1,0 +1,4 @@
+src
+# 默认会自动忽略node_modules
+node_modules
+test
