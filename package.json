@@ -25,7 +25,6 @@
     "lint"
   ],
   "dependencies": {
-    "global": "^4.3.2",
-    "supervisor": "^0.12.0"
+    "handlebars": "^4.0.12"
   }
 }
